@@ -1,1 +1,2 @@
 # testautomation_learning
+テストの自動化の勉強用メモ
