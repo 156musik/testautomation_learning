@@ -42,7 +42,7 @@ test('不正なメールアドレスでフォームを送信する', async ({ pa
 
 形式として正しいかどうか（例：invalid-emailが形式的に正しいか）」と「そのメールアドレスがシステムに登録されているか」は全く別の話である
 
-```
+```js
 await page.fill('input[name="email"]', 'invalid-email');
 ```
 
