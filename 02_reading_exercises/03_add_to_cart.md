@@ -69,12 +69,12 @@ innerTextとtextContentの違い
 * textContent は、DOM上に存在するすべてのテキストを対象にするため、非表示のものも含む。
 テストでは、通常は innerText を使った方が、ユーザーに見える内容を確認するのに適しているため、このコードでもそうなっている。
 
-```
+```js
 await page.click('button[data-testid="add-to-cart"]');
 ```
 ここで「1点アイテムを追加する操作」を実行している（= 商品を1つカートに追加する処理）
 
-```
+```js
 const cartCount = await page.innerText('.cart-count');
 ```
 ここは「何点追加されたかを画面から取得して確認する」ための処理。 
