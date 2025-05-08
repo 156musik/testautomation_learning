@@ -14,6 +14,8 @@ test('ログインフォームに入力してログインボタンを押す', as
 });
 ```
 
+## 解説
+
 ```js
 await page.goto('https://example.com/login');
 ```
