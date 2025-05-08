@@ -13,6 +13,8 @@ ChatGPTとの対話を通じて、コード読解・実装・設計の理解を�
 - [01_google_search.md](./02_reading_exercises/01_google_search.md)
 - [02_login_form.md](./02_reading_exercises/02_login_form.md)
 - [03_add_to_cart.md](./02_reading_exercises/03_add_to_cart.md)
+- [03_add_to_cart.md](02_reading_exercises/03_add_to_cart.md)
+- 
 
 ## 今後の予定
 - 実行可能なPlaywrightテストコードの追加
