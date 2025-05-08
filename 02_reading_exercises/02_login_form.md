@@ -1,4 +1,4 @@
-サンプルコード②
+# 01：ログインフォームのテスト
 
 const { test, expect } = require('@playwright/test');
 
