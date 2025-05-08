@@ -55,7 +55,7 @@ await page.fill('input[name="email"]', 'invalid-email');
 * 「このメールアドレスは登録されていません」
 * 「ユーザーが見つかりませんでした」
 
-```
+```js
 await page.goto('https://example.com/password-reset');
 
 await page.fill('input[name="email"]', 'notregistered@example.com');
