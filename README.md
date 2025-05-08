@@ -12,6 +12,12 @@ ChatGPTとの対話を通じて、コード読解・実装・設計の理解を�
 - 第三者検証を中心とした実行経験を踏まえ、より自立的なQAエンジニアを目指しています。
 - 転職活動に向けたポートフォリオの一環として、本学習記録を公開しています。
 
+## コード読解問題一覧
+
+- [01_google_search.md](./02_reading_exercises/01_google_search.md)
+- [02_login_form.md](./02_reading_exercises/02_login_form.md)
+- [03_add_to_cart.md](./02_reading_exercises/03_add_to_cart.md)
+
 ## 今後の予定
 - 実行可能なPlaywrightテストコードの追加
 - テスト設計の学習内容（観点出しなど）の整理と反映
