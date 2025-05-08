@@ -1,4 +1,4 @@
-# 01：ログインフォームのテスト
+# 02：ログインフォームのテスト
 
 ## テストコード
 
@@ -12,7 +12,12 @@ test('ログインフォームに入力してログインボタンを押す', as
   await page.click('button[type="submit"]');
   await expect(page).toHaveURL('https://example.com/dashboard');
 });
+```
 
+```js
 await page.goto('https://example.com/login');
 ```
 
+- 意味：ブラウザで https://example.com/login にアクセスする
+- 目的：ログイン画面を表示する
+- await を使っていることで「ページの読み込みが完了するまで待つ
