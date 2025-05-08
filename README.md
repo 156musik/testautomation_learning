@@ -13,7 +13,7 @@ ChatGPTとの対話を通じて、コード読解・実装・設計の理解を�
 - [01_google_search.md](./02_reading_exercises/01_google_search.md)
 - [02_login_form.md](./02_reading_exercises/02_login_form.md)
 - [03_add_to_cart.md](./02_reading_exercises/03_add_to_cart.md)
-- [03_add_to_cart.md](02_reading_exercises/03_add_to_cart.md)
+- [04_invalid_email.md](02_reading_exercises/04_invalid_email.md)
 - [05_profile_check.md](02_reading_exercises/05_profile_check.md)
 
 ## 今後の予定
