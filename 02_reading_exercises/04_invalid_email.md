@@ -16,17 +16,33 @@ test('不正なメールアドレスでフォームを送信する', async ({ pa
 
 ## 回答まとめ
 
+### 自分の回答
+
+問１
+1. Example.comのコンタクトページを開示する
+2. Emailに無効なメールアドレスを入力する
+3. Submitボタンを押下する
+   - 送信ボタンとか？
+4. 手順２のメールアドレスが無効であることを判定
+5. エラーメッセージが表示される
+
+問２
+
+無効なアドレスです。
+
+### 回答
+
 問1：操作の順序と内容
 1. page.goto('https://example.com/contact')
-   → Example.com の お問い合わせ（Contact）ページを開く。
+   - Example.com の お問い合わせ（Contact）ページを開く。
 2. await page.fill('input[name="email"]', 'invalid-email')
-　　→ email という名前の 入力欄に「invalid-email」（無効な形式のメールアドレス）を入力。 　※ @ やドメインが入っていないので、形式として不正。
+   - email という名前の 入力欄に「invalid-email」（無効な形式のメールアドレス）を入力。 　※ @ やドメインが入っていないので、形式として不正。
 3. await page.click('button[type="submit"]')
-   → 送信ボタン（Submit）をクリック。 　※ 多くのフォームでは、<button type="submit">送信</button>のようになっている。
+   - 送信ボタン（Submit）をクリック。 　※ 多くのフォームでは、<button type="submit">送信</button>のようになっている。
 4. const error = await page.innerText('.error-message')
  　→ .error-message クラスのついた要素から、表示されている エラーメッセージのテキストを取得。
 5. expect(error).toContain('無効なアドレスです。')
-   → 取得したエラーメッセージが、「無効なアドレスです。」という文言を含んでいるかどうかを確認。
+   - 取得したエラーメッセージが、「無効なアドレスです。」という文言を含んでいるかどうかを確認。
 
 問2：テスト対象の確認
 * テスト対象は、「メールアドレスのバリデーション（検証）機能」。
