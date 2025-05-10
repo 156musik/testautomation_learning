@@ -16,10 +16,10 @@ ChatGPTとの対話を通じて、コード読解・実装・設計の理解を�
 - [04_invalid_email.md](02_reading_exercises/04_invalid_email.md)
 - [05_profile_check.md](02_reading_exercises/05_profile_check.md)
 - [06_select_country.md](02_reading_exercises/06_select_country.md)
-- [](url)
-- [](url)
-- [](url)
-- [](url)
+- [07_radio_select.md](02_reading_exercises/07_radio_select.md)
+- [08_wait_visible.md](02_reading_exercises/08_wait_visible.md)
+- [9_modal_visible.md](02_reading_exercises/09_modal_visible.md)
+- [10_count_elements.md](02_reading_exercises/10_count_elements.md)
 - [](url)
 
 
