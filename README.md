@@ -15,6 +15,13 @@ ChatGPTとの対話を通じて、コード読解・実装・設計の理解を�
 - [03_add_to_cart.md](./02_reading_exercises/03_add_to_cart.md)
 - [04_invalid_email.md](02_reading_exercises/04_invalid_email.md)
 - [05_profile_check.md](02_reading_exercises/05_profile_check.md)
+- [06_select_country.md](02_reading_exercises/06_select_country.md)
+- [](url)
+- [](url)
+- [](url)
+- [](url)
+- [](url)
+
 
 ## 今後の予定
 - [01_learning_guide)](01_learning_guide.md) に沿った学習とその記録
