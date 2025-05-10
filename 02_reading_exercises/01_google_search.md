@@ -20,7 +20,6 @@ test('Googleで検索して結果を確認する', async ({ page }) => {
 
 ```ja
 const { test, expect } = require('@playwright/test');
-
 ```
 
 #### 自分の回答
