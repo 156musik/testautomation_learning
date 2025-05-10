@@ -8,4 +8,4 @@
 2. 自分なりの回答を記述（操作の意味やテスト観点など）  
 3. ChatGPTからの解説を受け、内容を理解・整理して `.md` ファイルとして保存  
 4. ファイルは1問1ファイルとし、`01_〜` の形式で管理
-- なお、[01_google_search.md](url)
+- なお、[01_google_search.md](02_reading_exercises/01_google_search.md) 及び
