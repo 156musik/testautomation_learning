@@ -47,6 +47,37 @@ await page.goto('https://example.com/login');
 await page.fill('#username', 'testuser');
 ```
 
+#### 自分の回答
+
+pagefullは「指定された入力欄に、文字を入力する命令」なのでusernameにtestuserを入力する
+
+#### 解説
+
+##### 第2問の正解
+
+- 意味：`#username`という入力欄に`testuser`という文字を入力する
+- セレクタ`#username`：
+    - `＃`は「ID」を意味し、`username`は入力欄のID名
+    - つまり、IDが`username`というHTML要素を指定している
+- `fill()`は、指定した要素に指定した文字列を入力する関数
+
+##### 日本語でまとめると：
+
+> IDが`username`という入力欄に、文字列`testuser`を入力する操作である。
+
+### 第３問
+
+```ja
+await page.click('button[type="submit"]');
+```
+
+#### 自分の回答
+
+
+
+
+
+
 
 
 
