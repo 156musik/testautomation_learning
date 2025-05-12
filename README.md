@@ -20,7 +20,7 @@ ChatGPTとの対話を通じて、コード読解・実装・設計の理解を�
 - [08_wait_visible.md](02_reading_exercises/08_wait_visible.md)
 - [9_modal_visible.md](02_reading_exercises/09_modal_visible.md)
 - [10_count_elements.md](02_reading_exercises/10_count_elements.md)
-- [](url)
+- [11_conditional-login-check.spec](02_reading_exercises/11_conditional-login-check.spec.md)
 
 
 ## 今後の予定
